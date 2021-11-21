@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-Wall -Wextra -fPIC -O2 -I./include
 LFLAGS=-fPIC -shared -O2 -ldl -lrt
-OBJS=obj/open.o obj/hook.o obj/dict.o obj/decode.o obj/itab.o obj/syn-att.o obj/syn-intel.o obj/syn.o obj/udis86.o obj/report_io.o obj/xxhash.c
+OBJS=obj/open.o obj/hook.o obj/dict.o obj/decode.o obj/itab.o obj/syn-att.o obj/syn-intel.o obj/syn.o obj/udis86.o obj/report_io.o obj/xxhash.o
 HEADERS=include/udis86.h libudis86/decode.h libudis86/extern.h libudis86/itab.h libudis86/syn.h libudis86/types.h libudis86/udint.h src/hook_int.h
 RM=rm -rf
 
